@@ -1,9 +1,16 @@
-import React from 'react'
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='text-center text-3xl'>Hello Biswajit !</div>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
