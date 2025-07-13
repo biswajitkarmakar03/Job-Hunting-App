@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Card, CardContent } from "../components/ui/card";
 import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
+import img1 from "../assets/ai.jpg";
+import img2 from "../assets/start-up.jpg";
+import img3 from "../assets/mental-health.jpg";
 
 const blogs = [
   {
@@ -9,21 +12,21 @@ const blogs = [
     description: "Discover how artificial intelligence is shaping industries and everyday life.",
     date: "July 10, 2025",
     category: "Technology",
-    image: "https://source.unsplash.com/featured/?technology",
+    image: img1,
   },
   {
     title: "Why Mental Health Needs More Awareness",
     description: "Let’s talk about mental health, its impact, and how to support those in need.",
     date: "July 9, 2025",
     category: "Health",
-    image: "https://source.unsplash.com/featured/?mentalhealth",
+    image: img2,
   },
   {
     title: "Startup Culture: Boom or Bubble?",
     description: "The rise of startup ecosystems and what entrepreneurs need to watch out for.",
     date: "July 8, 2025",
     category: "Business",
-    image: "https://source.unsplash.com/featured/?startup",
+    image: img3,
   },
   // Add more posts...
 ];
@@ -84,7 +87,7 @@ const BlogPage = () => {
       </div>
 
       {/* Load More */}
-      <div className="text-center mt-10">
+      <div className="text-center m-20">
         <Button variant="outline">Load More</Button>
       </div>
     </section>

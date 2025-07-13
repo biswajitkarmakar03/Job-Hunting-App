@@ -8,6 +8,8 @@ import CurrentJobOpenings from './components/CurrentJobOpenings';
 import StatsSection from './components/StatsSection';
 import Testimonials from './components/Testimonials';
 import BlogPage from './components/BlogPage';
+import Footer from './components/Footer';
+import UploadCVSection from './components/UploadCVSection ';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             < StatsSection />
             <Testimonials />
             <BlogPage />
+            <UploadCVSection />
+            <Footer />
           </>
         } />
       </Routes>

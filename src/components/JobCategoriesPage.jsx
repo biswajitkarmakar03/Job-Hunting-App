@@ -30,8 +30,8 @@ const JobCategoriesPage = () => {
         </div>
       </div>
        <div className="mt-20 flex justify-center">
-        <button className="border border-black text-black px-32 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 tracking-widest">
-          View Jobs Categories
+        <button className="border border-black text-black px-10 py-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 tracking-widest">
+          View All Categories
         </button>
       </div>
     </section>

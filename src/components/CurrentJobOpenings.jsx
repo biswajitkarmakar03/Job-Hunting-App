@@ -39,7 +39,7 @@ const CurrentJobOpenings = () => {
               key={index}
               className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300"
             >
-              <h3 className="text-2xl font-semibold text-indigo-600 mb-2">{job.title}</h3>
+              <h3 className="text-2xl font-semibold text-black mb-2">{job.title}</h3>
               <p className="text-gray-700 mb-4">{job.description}</p>
               <div className="mb-4">
                 <h4 className="text-sm font-medium text-gray-500 uppercase">Required Skills</h4>
@@ -47,7 +47,7 @@ const CurrentJobOpenings = () => {
                   {job.skills.map((skill, i) => (
                     <li
                       key={i}
-                      className="bg-indigo-100 text-indigo-600 text-sm font-medium px-3 py-1 rounded-full"
+                      className="bg-gray-200 text-black text-sm font-medium px-3 py-1 rounded-full"
                     >
                       {skill}
                     </li>
@@ -61,8 +61,8 @@ const CurrentJobOpenings = () => {
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <button className="bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 px-8 rounded-full transition">
+        <div className="text-center mt-20">
+          <button className="border border-black shadow-lg py-3 px-10 tracking-widest rounded-full transition hover:-translate-y-1">
             View All Jobs
           </button>
         </div>
