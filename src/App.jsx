@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HomeCards from './components/HomeCards';
+import JobVacancySection from './components/JobVacancySection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <>
             <Hero />
             <HomeCards />
+            <JobVacancySection />
           </>
         } />
       </Routes>
