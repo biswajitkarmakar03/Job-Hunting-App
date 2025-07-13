@@ -3,7 +3,7 @@ import { Briefcase, Code } from 'lucide-react'; // Optional icons
 
 const HomeCards = () => {
   return (
-    <section className="py-12 bg-gradient-to-b from-white via-gray-50 to-gray-100">
+    <section className="py-12 bg-white">
       <div className="container-xl lg:container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           

@@ -9,7 +9,7 @@ const Navbar = () => {
           {/* Logo and Brand */}
           <Link to="/" className="flex items-center">
             {/* <img src={logo} alt="Logo" className="h-10 w-auto" /> */}
-            <span className="text-indigo-900 text-2xl font-semibold ml-2">JobVerse</span>
+            <span className="text-indigo-700 text-2xl font-semibold ml-2">Hiresy</span>
           </Link>
 
           {/* Navigation Links */}
