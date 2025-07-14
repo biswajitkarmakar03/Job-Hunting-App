@@ -87,8 +87,10 @@ const BlogPage = () => {
       </div>
 
       {/* Load More */}
-      <div className="text-center m-20">
-        <Button variant="outline">Load More</Button>
+      <div className="m-20 flex justify-center">
+        <button className="border border-black text-black px-10 py-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 tracking-widest">
+          Read More...
+        </button>
       </div>
     </section>
   );

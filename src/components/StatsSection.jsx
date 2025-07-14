@@ -17,12 +17,12 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-indigo-700 py-16">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
         {stats.map((stat, index) => (
           <div key={index}>
-            <h2 className="text-4xl font-bold text-indigo-700">{stat.value}</h2>
-            <p className="mt-2 text-gray-600 text-sm">{stat.label}</p>
+            <h2 className="text-4xl font-bold text-white">{stat.value}</h2>
+            <p className="mt-2 text-gray-300 text-sm">{stat.label}</p>
           </div>
         ))}
       </div>

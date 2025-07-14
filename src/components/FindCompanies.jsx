@@ -95,7 +95,7 @@ const FindCompanies = () => {
 
       {/* CTA */}
       <div className="text-center mt-12">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition">
+        <button className="bg-indigo-600 hover:bg-indigo-700 tracking-wide text-white px-8 py-3 rounded-full shadow-lg transition">
           View All Companies
         </button>
       </div>

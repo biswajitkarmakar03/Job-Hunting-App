@@ -62,8 +62,8 @@ const CurrentJobOpenings = () => {
         </div>
 
         <div className="text-center mt-20">
-          <button className="border border-black shadow-lg py-3 px-10 tracking-widest rounded-full transition hover:-translate-y-1">
-            View All Jobs
+          <button className="bg-indigo-600 hover:bg-indigo-700 tracking-wide text-white px-8 py-3 rounded-full shadow-lg transition">
+            View All Openings
           </button>
         </div>
       </div>

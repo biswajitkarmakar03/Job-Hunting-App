@@ -58,7 +58,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} JobHunt. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} Hiresy. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-blue-400 transition"><Facebook size={20} /></a>
             <a href="#" className="hover:text-pink-500 transition"><Instagram size={20} /></a>

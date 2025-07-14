@@ -2,7 +2,7 @@ import React from 'react';
 
 const UploadCVSection = () => {
   return (
-    <section className="bg-blue-100 py-10">
+    <section className="bg-indigo-200 py-10">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         {/* Text Section */}
         <div className="mb-6 md:mb-0">
@@ -15,7 +15,7 @@ const UploadCVSection = () => {
         </div>
 
         {/* Button */}
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-md transition duration-300">
+        <button className="bg-indigo-700 hover:bg-indigo-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
           Upload Your CV
         </button>
       </div>

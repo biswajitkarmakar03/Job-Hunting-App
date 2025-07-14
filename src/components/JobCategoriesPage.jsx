@@ -12,7 +12,7 @@ const categories = [
 
 const JobCategoriesPage = () => {
   return (
-    <section className="min-h-screen py-16 px-4 bg-gray-50">
+    <section className="min-h-screen py-16 px-4 bg-white">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-20">Explore Job Categories</h2>
 
@@ -20,7 +20,7 @@ const JobCategoriesPage = () => {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 cursor-pointer hover:bg-blue-50"
+              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 cursor-pointer hover:bg-indigo-50"
             >
               <div className="text-blue-600 mb-4 text-4xl">{category.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{category.name}</h3>
