@@ -1,34 +1,38 @@
 import React from "react";
 import { Search, Star } from "lucide-react";
+import coImg1 from "../assets/tcs.png";
+import coImg2 from "../assets/apollo.png";
+import coImg3 from "../assets/adani.png";
+import coImg4 from "../assets/paytm.png";
 
 const companies = [
   {
-    name: "TechNova Solutions",
-    industry: "Software Development",
+    name: "TCS",
+    industry: "Information Technology ",
     rating: 4.8,
     description: "Delivering cutting-edge enterprise solutions to global clients.",
-    logo: "https://via.placeholder.com/60",
+    logo: coImg1,
   },
   {
-    name: "HealthSync Labs",
-    industry: "Healthcare AI",
+    name: "Apollo Hospitals",
+    industry: "healthcare",
     rating: 4.6,
     description: "Revolutionizing diagnostics through artificial intelligence.",
-    logo: "https://via.placeholder.com/60",
+    logo: coImg2,
   },
   {
-    name: "EcoWave Energy",
+    name: "Adani Power",
     industry: "Renewable Energy",
     rating: 4.5,
     description: "Empowering a cleaner future with solar and wind innovations.",
-    logo: "https://via.placeholder.com/60",
+    logo: coImg3,
   },
   {
-    name: "FinGuard",
+    name: "Paytm",
     industry: "Fintech",
     rating: 4.7,
     description: "Simplifying financial security through smart apps and insights.",
-    logo: "https://via.placeholder.com/60",
+    logo: coImg4,
   },
   // Add more company objects as needed
 ];

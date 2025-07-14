@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">JobHunt</h2>
+            <h2 className="text-2xl font-bold mb-4">Hiresy</h2>
             <p className="text-gray-400 text-sm">
               Your dream job is just a few clicks away. Explore opportunities, connect with employers, and level up your career.
             </p>
