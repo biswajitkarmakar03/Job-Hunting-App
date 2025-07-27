@@ -7,7 +7,7 @@ const menuData = {
   Jobs: {
     icon: <Briefcase className="w-5 h-5 text-blue-600" />,
     links: [
-      { label: 'All Jobs', href: '#' },
+      { label: 'All Jobs', href: 'JobsPage' },
       { label: 'Remote Jobs', href: '#' },
       { label: 'Internships', href: '#' },
       { label: 'Fresher Jobs', href: '#' },
