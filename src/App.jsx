@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials';
 import BlogPage from './components/BlogPage';
 import Footer from './components/Footer';
 import UploadCVSection from './components/UploadCVSection ';
-import JobsPage from './components/pages/JobsPage';
+import JobsPage from './pages/JobsPage';
 
 function App() {
   return (
@@ -27,11 +27,11 @@ function App() {
             < StatsSection />
             <Testimonials />
             <BlogPage />
-            <UploadCVSection />
-            <JobsPage />
           </>
         } />
+          <Route path="/JobsPage" element={<JobsPage />}></Route> 
       </Routes>
+            <UploadCVSection />
             <Footer />
     </>
   );

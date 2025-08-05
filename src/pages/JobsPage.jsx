@@ -25,6 +25,30 @@ const jobData = [
     type: "Freelance",
     description: "Need a creative designer for mobile apps.",
   },
+    {
+    id: 4,
+    title: "HR Manager",
+    company: "TechLife",
+    location: "Remote",
+    type: "Full-time",
+    description: "Looking Talent Accusition Expert with 6+ years experience.",
+  },
+  {
+    id: 5,
+    title: "Customer Support Executive",
+    company: "TeleFonix",
+    location: "Hyderabad, India",
+    type: "Full-time",
+    description: "Need a Customer Support Exucutive with no proir experience, flexible hours.",
+  },
+  {
+    id: 6,
+    title: "Data Analyst",
+    company: "DataBricks",
+    location: "Kolkata, India",
+    type: "Full-Time",
+    description: "Need a Data Analyst with the experience of 2 years.",
+  },
 ];
 
 const JobsPage = () => {
@@ -35,10 +59,10 @@ const JobsPage = () => {
     : jobData.filter(job => job.type === filterType);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 px-4">
+    <div className="min-h-screen bg-gray-50 py-20 px-4">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">All Job Listings</h2>
 
-      <div className="max-w-md mx-auto mb-8">
+      <div className="max-w-md mx-auto mb-16">
         <select
           value={filterType}
           onChange={(e) => setFilterType(e.target.value)}
